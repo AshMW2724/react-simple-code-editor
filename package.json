@@ -1,6 +1,7 @@
 {
-  "name": "react-simple-code-editor",
-  "version": "0.11.0",
+  "name": "@ashmw/react-simple-code-editor",
+  "private": false,
+  "version": "0.13.1",
   "description": "Simple no-frills code editor with syntax highlighting",
   "keywords": [
     "code",
@@ -31,10 +32,7 @@
     "lib/",
     "index.d.ts"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/satya164/react-simple-code-editor.git"
-  },
+  "repository": "git+https://github.com/satya164/react-simple-code-editor.git",
   "author": "Satyajit Sahoo <satyajit.happy@gmail.com> (https://github.com/satya164/)",
   "license": "MIT",
   "devDependencies": {
@@ -47,6 +45,7 @@
     "babel-preset-react": "^6.24.1",
     "dedent": "^0.7.0",
     "del-cli": "^1.1.0",
+    "dts-gen": "^0.6.0",
     "eslint": "^5.8.0",
     "eslint-config-satya164": "^2.0.1",
     "flow-bin": "^0.85.0",
